@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4943882938362745692}
   - component: {fileID: 3850964171002261463}
   - component: {fileID: 1720829504119158404}
+  - component: {fileID: 7086877204848103037}
   m_Layer: 0
   m_Name: SM_Tree_01_LOD0
   m_TagString: Untagged
@@ -29,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7737285914699146452}
   m_RootOrder: 0
@@ -52,6 +54,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -91,11 +94,22 @@ MeshCollider:
   m_GameObject: {fileID: 5006217017121655761}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7991287726783697670, guid: b50e689e0e34f5342b2c6effbd091f85, type: 3}
+--- !u!154 &7086877204848103037
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5006217017121655761}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 31acfad584ab17443aec4027f2fd10e0, type: 2}
+  m_EnableTreeColliders: 1
 --- !u!1 &6929786551810850414
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,6 +137,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2350426882772559778}
   - {fileID: 2670894028387588473}
@@ -164,6 +179,7 @@ GameObject:
   - component: {fileID: 5123512094284576474}
   - component: {fileID: 4881439818001606527}
   - component: {fileID: 3060270751909435986}
+  - component: {fileID: 5190757461955545006}
   m_Layer: 0
   m_Name: SM_Tree_01_LOD1
   m_TagString: Untagged
@@ -181,6 +197,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7737285914699146452}
   m_RootOrder: 1
@@ -204,6 +221,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -243,8 +261,19 @@ MeshCollider:
   m_GameObject: {fileID: 8337628050871796078}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4464023372173817840, guid: b50e689e0e34f5342b2c6effbd091f85, type: 3}
+--- !u!154 &5190757461955545006
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337628050871796078}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 31acfad584ab17443aec4027f2fd10e0, type: 2}
+  m_EnableTreeColliders: 1

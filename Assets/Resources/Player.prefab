@@ -474,6 +474,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowGirl_1
       objectReference: {fileID: 0}
+    - target: {fileID: 651076591364092481, guid: 378888ce802b6004993a5db857809d39, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 658294779644063560, guid: 378888ce802b6004993a5db857809d39, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3152034214384989133, guid: 378888ce802b6004993a5db857809d39, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749076807677726156, guid: 378888ce802b6004993a5db857809d39, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5715630463275521869, guid: 378888ce802b6004993a5db857809d39, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956235882241336697, guid: 378888ce802b6004993a5db857809d39, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 378888ce802b6004993a5db857809d39, type: 3}
 --- !u!4 &9169907240708241928 stripped
