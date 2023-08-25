@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 963137187394619700}
   - component: {fileID: 963137187394619701}
   - component: {fileID: 963137187394619702}
+  - component: {fileID: 8176236471933301360}
   m_Layer: 0
   m_Name: Snowball
   m_TagString: Untagged
@@ -281,3 +282,15 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 1
   m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &8176236471933301360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963137187394619707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f143be9ebd12fa64a85eca868b009c94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
